@@ -1,0 +1,77 @@
+.Form 
+{
+    position: absolute;
+    box-sizing: border-box;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.FormBox
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.one .MuiTextField-root
+{
+    margin-bottom: 20px;
+}
+.one .MuiFormControl-root
+{
+    margin-bottom: 20px;
+}
+.one
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.InputForm .one
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.Form_Button
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.InputForm
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Form_Header
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d4977;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.Form_Header h2
+{
+ font-weight: 500;
+}
+.one .MuiInputBase-input
+{
+    /* padding: 10px; */
+    font-size: small;
+}

@@ -1,0 +1,46 @@
+.Delete {
+    position: absolute;
+    top : 0px;
+    left: 0px;
+    width : 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Delete_Card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    height: 300px;
+    width: 400px;
+    border-radius: 7px;
+    padding: 30px;
+    justify-content: center;
+}
+.Delete_Header
+{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d4977;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.Delete_Button
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
